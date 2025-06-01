@@ -42,7 +42,7 @@ An interactive JavaScript quiz application with a Matchmaking Rating (MMR) syste
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/javascript-quiz-mmr.git
+git clone https://github.com/mmrcode/javascript-quiz.git
 ```
 
 2. Open `index.html` in your browser
@@ -57,4 +57,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-By MMR Code 
+By MMR Code
