@@ -3,7 +3,7 @@
 An interactive JavaScript quiz application with a Matchmaking Rating (MMR) system. Test your JavaScript knowledge and compete with others on the leaderboard!
 
 ## View
-[Website Demo](https://mmrcode.github.io/javascript-quiz/)
+[Quiz Demo](https://mmrcode.github.io/javascript-quiz/)
 
 
 ## Features
