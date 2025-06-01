@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMR Rankings - JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+        
+        <div class="mmr-screen">
+            <div class="title-container">
+                <h1>MMR Rankings</h1>
+                <div class="subtitle">Top Players</div>
+            </div>
+
+            <div class="rankings-container">
+                <div class="rankings-header">
+                    <span class="rank">Rank</span>
+                    <span class="player">Player</span>
+                    <span class="mmr">MMR</span>
+                </div>
+                <div id="rankings-list">
+                    <!-- Rankings will be added dynamically -->
+                </div>
+            </div>
+
+            <div class="your-rank">
+                <h2>Your Rank</h2>
+                <div class="rank-card">
+                    <div class="rank-info">
+                        <span class="rank-number">#<span id="your-rank">-</span></span>
+                        <span class="player-name">You</span>
+                    </div>
+                    <span class="mmr-value"><span id="your-mmr">1000</span> MMR</span>
+                </div>
+            </div>
+
+            <a href="index.html" class="btn back-btn">Back to Quiz <i class="fas fa-arrow-left"></i></a>
+            
+            <div class="signature">
+                <span>By MMR Code</span>
+            </div>
+        </div>
+    </div>
+    <script src="mmr.js"></script>
+</body>
+</html> 
